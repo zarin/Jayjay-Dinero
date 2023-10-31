@@ -1,0 +1,491 @@
+/* ==================================common css
+start================================*/
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #1A1A29;
+}
+
+
+.container{
+    max-width:1170px;
+    margin:0 auto;
+}
+/* ==================================common css
+end================================*/
+
+
+
+/* ==================================navbar
+start================================*/
+nav{
+    background: #181824;
+}
+.nav_link{
+    display:inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color:#FFFFFF;
+    margin-right: 52px;
+    transition: .4s;
+}
+
+.nav_link:hover{
+    color:#7562E0;
+}
+/* ==================================navbar
+end================================*/
+
+
+
+/* ==================================banner
+start================================*/
+#banner{
+    position: relative;
+}
+
+
+.banner_item_left{
+    margin-top: 209px;
+}
+
+.banner_item_left h3{
+    font-size: 32px;
+    font-weight: 600;
+    color:#FFFFFF;
+}
+
+.banner_item_left h2{
+    margin-top: 6px;
+    margin-bottom: 12px;
+    font-size: 52px;
+    font-weight: 600;
+    color:#F5F5F5;
+}
+
+.banner_item_left p{
+    width:435px;
+    margin-bottom: 29px;
+    font-size: 18px;
+    font-weight: 500;
+    color:#FFFFFF;
+}
+
+.banner_about_btn{
+    display:inline-block;
+    text-decoration: none;
+    padding: 12px 25px;
+    border:2px solid #7562E0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color:#FFFFFF;
+    transition: .4s;
+}
+
+.about_icon{
+    margin-left: 6px;
+}
+
+.banner_about_btn:hover{
+    background: #7562E0;
+}
+
+.banner_projects_btn{
+    display:inline-block;
+    text-decoration: none;
+    padding: 12px 25px;
+    border:2px solid #7562E0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color:#FFFFFF;
+    margin-left: 32px;
+    transition: .4s;
+}
+
+.projects_icon{
+    margin-left: 6px;
+}
+
+.banner_projects_btn:hover{
+    background: #7562E0;
+}
+
+.banner_item_right{
+    margin-top: 117px;
+}
+
+.banner_blank_section{
+    background: #181824;
+    height:128px; 
+    width:100%;
+    position:absolute;
+    left:0;
+    bottom:-8px;
+}
+/* ==================================banner
+end================================*/
+
+
+
+
+
+/* ==============================About me start=========================*/
+.about_title h3{
+    margin-top: 55px;
+    margin-bottom: 8px;
+    font-size: 32px;
+    font-weight: 600;
+    color:#7562E0;
+}
+
+.about_title p{
+    width:1032px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color:#FFFFFF;
+}
+
+.about_subtitle{
+    display: flex;
+    align-items: center;
+    gap:22px;
+}
+
+.about_subtitle h2{
+    margin-top: 7px;
+    font-size: 96px;
+    font-weight: 600;
+    color:#7562E0;
+}
+
+.about_subtitle p{
+    width:921px;
+    font-size: 24px;
+    font-weight: 500;
+    color:#FFFFFF;
+}
+
+.about_item{
+    margin-top: 61px;
+    width:260px;
+    padding-top:97px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    background: #BDBDBD;
+    border:1px solid transparent;
+    margin-right: 17px;
+    transition:.4s;
+}
+
+
+.about_item:hover{
+    background: #7562E0;
+}
+
+
+.about_item h2{
+    font-size: 24px;
+    font-weight: 600;
+    color:#FFFFFF;
+}
+
+.about_icon1{
+    margin-bottom: 14px;
+}
+
+.about_icon2{
+    margin-bottom: 8px;
+}
+
+.about_icon3{
+    margin-bottom: 5px;
+}
+
+.about_icon4{
+    margin-bottom: 15px;
+}
+/* ===============================About me end===========================*/
+
+
+
+
+
+/* =============================Service start===========================*/
+.service_title{
+    margin-top: 77px;
+    margin-bottom: 32px;
+    font-size: 32px;
+    font-weight: 600;
+    color:#7562E0;
+}
+
+.service_item{
+    height:338px;
+    width:350px;
+    padding: 0 22px;
+    margin-right: 23px;
+    border:3px solid #F5F5F5;
+    border-radius: 16px;
+    align-items: center;
+    text-align: center;
+    transition: .4s;
+}
+
+
+.service_item:hover{
+    border:3px solid #7562E0;
+}
+
+
+.service_item h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 185%;
+    color:#7562E0;
+    transition: .4s;
+}
+
+.service_item:hover.service_item h3{
+    color:#FFFFFF;
+}
+
+.service_item p{
+    margin-top: 16px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28px;
+    color:#FFFFFF;
+}
+
+.service_icon1{
+    margin-top: 91px;
+    margin-bottom: 8px;
+}
+
+.service_icon2{
+    margin-top: 76px;
+    margin-bottom: 11px;
+}
+
+.service_icon3{
+    margin-top: 63px;
+    margin-bottom: 11px;
+}
+
+
+
+
+
+.service_row2{
+    margin-top: 16px;
+}
+
+.service_img4{
+    margin-top: 61px;
+    margin-bottom: 4px;
+}
+
+.service_img5{
+    margin-top: 70px;
+    margin-bottom: 3px;
+}
+
+.service_img6{
+    margin-top: 72px;
+    margin-bottom: 17px;
+}
+/* =============================Service end===========================*/
+
+
+
+
+
+
+/* ============================Featured start===========================*/
+.featured_title h3{
+    margin-top: 80px;
+    margin-bottom: 16px;
+    font-size: 32px;
+    font-weight: 600;
+    color:#7562E0;
+}
+
+.featured_title p{
+    width:1027px;
+    margin-bottom: 36px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color:#FFFFFF;
+}
+
+
+.featured_card{
+    width:343px;
+    padding:16px;
+    margin-right: 17px;
+    border:1px solid #31313F;
+    border-radius: 8px;
+    background: #31313F;
+}
+
+.featured_card h4{
+    margin-top: 16px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 600;
+    color:#7562E0;
+    text-transform: uppercase;
+}
+
+.featured_card p{
+    width:303px;
+    margin-bottom: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    color:#FFFFFF;
+}
+
+.featured_btn1{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 35px;
+    border-radius: 8px;
+    border:2px solid #7562E0;
+    font-size: 16px;
+    font-weight: 600;
+    color:#FFFFFF;
+    transition: .4s;
+}
+
+.featured_btn1:hover{
+    background: #7562E0;
+}
+
+.featured_btn2{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    border:2px solid #7562E0;
+    font-size: 16px;
+    font-weight: 600;
+    color:#FFFFFF;
+    margin-left: 8px;
+    transition: .4s;
+}
+
+.featured_btn2:hover{
+    background: #7562E0;
+}
+/* ============================Featured end===========================*/
+
+
+
+
+/* ============================Connect start===========================*/
+#connect{
+    margin-top: 128px;
+    margin-bottom: 157px;
+}
+
+.connect_item_left h3{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color:#7562E0;
+}
+
+.connect_item_left p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    color:#FFFFFF;
+}
+
+.connect_icon{
+    color:#7562E0;
+    margin-right:16px;
+    font-size: 20px;
+}
+
+
+.connect_item_right h3{
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 500;
+    color:#FFFFFF;
+}
+
+.connect_input{
+    width:472px;
+    border-radius: 8px;
+    background: #31313F;
+    padding: 19px 16px;
+    border:none;
+    outline:none;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color:#F5F5F5;
+}
+
+.connect_input_msg{
+    width:472px;
+    border-radius: 8px;
+    background: #31313F;
+    padding: 37px 16px;
+    border:none;
+    outline:none;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color:#F5F5F5;
+}
+
+.connect_item_right a{
+    display:inline-block;
+    text-decoration: none;
+    padding: 15px 67px;
+    border-radius: 8px;
+    border:2px solid #7562E0;
+    font-size: 16px;
+    font-weight: 500;
+    color:#FFFFFF;
+    transition: .4s;
+}
+
+.connect_item_right a:hover{
+    background: #7562E0;
+}
+/* ============================Connect end===========================*/
+
+
+
+
+/* ============================footer start===========================*/
+footer{
+    padding-bottom: 32px;
+}
+
+.footer_flex{
+    display:flex;
+    gap:69px;
+}
+
+.footer_item h5{
+    font-size: 16px;
+    font-weight: 500;
+    color:#FFFFFF;
+    margin-bottom: 20px;
+}
+/* ============================footer end===========================*/
